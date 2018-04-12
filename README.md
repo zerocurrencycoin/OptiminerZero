@@ -1,5 +1,5 @@
-# OptiminerZ/Zero for Fuji and AMD RX Series with 4GB RAM online.
-# For 8GB cards and NVIDIA use OptiminerEquihash
+# OptiminerZ/Zero for Fuji and AMD RX Series with 4GB RAM ONLY.
+AMD 8GB cards and NVIDIA use OptiminerEquihash
 
 !!!TRY THE SMOS INSTALL SCRIPT!!!
 
