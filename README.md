@@ -1,19 +1,15 @@
-# OptiminerZ/Zero
+# OptiminerZ/Zero for Fuji and AMD RX Series with 4GB RAM online.
+# For 8GB cards and NVIDIA use OptiminerEquihash
+
+!!!TRY THE SMOS INSTALL SCRIPT!!!
 
 GPU miner for Zero.
 
-## v1.2.0
-[Download Linux 8GB GPU
-64bit](https://github.com/Optiminer/OptiminerZero/raw/master/optiminer-zero-1.2.0.tar.gz)
-
 [Download Linux 4GB GPU
-64bit](https://github.com/Optiminer/OptiminerZero/raw/master/optiminer-zero-1.1.0.tar.gz)
-
-[Download Windows 8GB GPU
-64bit](https://github.com/Optiminer/OptiminerZero/raw/master/optiminer-zero-1.2.0.zip)
+64bit](https://github.com/easymine-rocks/OptiminerZero/raw/master/optiminer-zero-1.1.0.tar.gz)
 
 [Download Windows 4GB GPU
-64bit](https://github.com/Optiminer/OptiminerZero/raw/master/optiminer-zero-1.1.0.zip)
+64bit](https://github.com/easymine-rocks/OptiminerZero/raw/master/optiminer-zero-1.1.0.zip)
 
 **Important: There are different versions for GPUs with 4GB and 8GB of RAM! If you have a card with
 only 4GB download the other version (1.1.0). 4GB is for AMD only!**
@@ -42,8 +38,6 @@ Supports:
 Expected speed (stock card):
 - Fiji (4GB):  7.5 S/s
 - RX 290x (4GB): 5.5 S/s
-- RX480 (8GB): 9.1 S/s
-- GTX1080: 8.2 S/s
 
 The miner contains a 2.5% fee for supporting the developer. All shown hash rates 
 are net rate, i.e., with fee deducted. What you see is what YOU get!
@@ -51,28 +45,14 @@ are net rate, i.e., with fee deducted. What you see is what YOU get!
 ## Usage:
 Run from the archive root directory:
 ```
-$ ./optiminer-zero -s zero.suprnova.cc:6568 -u moobar.worker -p x
+$ ./optiminer-zero -s zstratum+tls://zero.easymine.rocks:3000 -u t1xxWALLETADDRESSxx.$rigName -p x
 ```
+$ ./optiminer-zero -s zero.easymine.rocks:2000 -u t1xxWALLETADDRESSxx.$rigName -p x
 
 For a list of all options run with `-h`:
 ```
 $ ./optiminer-zero -h
 ```
-
-There are also 'mine.sh' and 'start.bat' scripts for running it under
-Linux and Windows. Just edit the pool and user settings before running!
-
-<!--
-### Secure connection
-Since version 1.0.0, the miner supports ZStratum protocol over TLS to
-encrypt the connection to the mining pool. Currently, this is only supported
-with some pools, e.g., flypool and supernova.
-
-Use `zstratum+tls://` as prefix to the pool address, e.g.,
-```
-$ ./optiminer-zcash -s zstratum+tls://eu1-zcash.flypool.org:3443 -u t1Yszagk1jBjdyPfs2GxXx1GWcfn6fdTuFJ.example -p password
-```
--->
 
 ## Troubleshooting
 
