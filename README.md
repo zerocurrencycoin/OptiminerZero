@@ -5,11 +5,11 @@ AMD 8GB cards and NVIDIA use OptiminerEquihash
 
 GPU miner for Zero.
 
-[Download Linux 4GB GPU
-64bit](https://github.com/easymine-rocks/OptiminerZero/raw/master/optiminer-zero-1.1.0.tar.gz)
+[Download Linux 4GB GPU SMOS / UBUNTU
+64bit](https://github.com/easymine-rocks/OptiminerZero/files/1901266/smos-easymine-zero-amd4gb.zip)
 
 [Download Windows 4GB GPU
-64bit](https://github.com/easymine-rocks/OptiminerZero/raw/master/optiminer-zero-1.1.0.zip)
+64bit](https://github.com/easymine-rocks/OptiminerZero/files/1901250/optiminer-zero-windows.zip)
 
 **Important: There are different versions for GPUs with 4GB and 8GB of RAM! If you have a card with
 only 4GB download the other version (1.1.0). 4GB is for AMD only!**
